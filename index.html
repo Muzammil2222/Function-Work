@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Javascript</title>
+</head>
+<body>
+    
+    <h1>(1)-Coding Question 1: Write a function in JavaScript called roundNumber() that takes a number as input and returns the number rounded to the nearest integer.</h1>
+    <input type="text" placeholder="Add Number" id="input_round">
+    <button onclick="round()">Round It</button>
+    <h2 id="result"></h2>
+    <h1>2: Create a function called generateRandomInRange(min, max) that generates a random integer between min and max (inclusive) in JavaScript.
+        Hint: You can use Math.random() to generate a random number between 0 and 1, then scale and shift it to fit within the specified range.
+        </h1>
+  <p>Random number between 1 and 10: <span id="randomNumber"></span></p>
+    <script src="app.js"></script>
+    <h1>(3)-Write a JavaScript function called convertToNumber(str) that takes a string as input and converts it into a number. Ensure the function returns NaN if the string cannot be converted into a valid number.
+        Hint: Look into the parseInt() and parseFloat() functions in JavaScript. Make sure to handle cases where the string is not a valid number.</h1>
+        <input type="text" placeholder="Add Number" id="input_number">
+        <button onclick="convert()">Convert</button>
+        <h2 id="result_number"></h2>
+        <h2 id="input_numbertwo"></h2>
+
+    <h1>(4)-Implement a JavaScript function called truncateDecimal(num, decimals) that truncates a number num to a specified number of decimals.
+        Hint: You may want to multiply the input number by a power of 10, truncate the decimal part, and then divide it back to the original power of 10 to achieve the desired truncation.</h1>
+        <input type="text" placeholder="Add Number" id="input_decimal">
+        <button onclick="truncate()">Truncate</button>
+        <h2 id="result_decimal"></h2>
+    
+       <h1>(5)-Develop a JavaScript function named formatNumber(num, decimalPlaces) that formats a number num to a string representation with the specified number of decimal places decimalPlaces. Ensure that the function returns a string even if the input is not a valid number.
+        Hint: Use the .toFixed() method to control the number of decimal places. Remember to handle non-numeric inputs gracefully to prevent errors.</h1> 
+        <input type="text" placeholder="Add Number" id="input_format">
+        <button onclick="format()">Format</button>
+        <h2 id="result_format"></h2>
+    </body>
+</html>
